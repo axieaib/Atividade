@@ -1,0 +1,10 @@
+<?php
+
+$valor_compra = 2050.00;
+
+if ($valor_compra >= 200) {
+    echo "O valor da sua compra foi R$ {$valor_compra}. <b> <br/> Resultado: Frete grátis</b>";
+} else {
+    echo "O valor da sua compra foi R$ {$valor_compra}. <b> <br/> Resultado: vc n teve frete.</b>";
+}
+?>
