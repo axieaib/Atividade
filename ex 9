@@ -1,0 +1,12 @@
+<?php
+
+$idade = 12;
+$acompanhado = true; 
+
+if ($idade >= 18 || $acompanhado == true) {
+    echo "Idade: {$idade} | Acompanhado: " . ($acompanhado ? 'Sim' : 'Não') . ". <b> <br/> Resultado: Entrada permitida!</b>";
+} else {
+    echo "Idade: {$idade} | Acompanhado: " . ($acompanhado ? 'Sim' : 'Não') . ". <b> <br/> Resultado: Entrada negada.</b> ";
+}
+
+?>
