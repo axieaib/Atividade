@@ -1,0 +1,13 @@
+<?php
+
+// variável de idade
+$idade = 12; 
+
+// Verificação de maioridade
+if ($idade >= 18) {
+    echo "A pessoa tem {$idade} anos, portanto é: Maior de idade, ta no modo dificl da vida.";
+} else {
+    echo "A pessoa tem {$idade} anos, portanto é: Menor de idade, ainda no modo facil.";
+}
+
+?>      
