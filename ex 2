@@ -1,0 +1,13 @@
+<?php
+
+// local para a nota
+$nota = 9.5;
+
+// teste de aprovação
+if ($nota >= 6) {
+    echo "A nota do aluno foi {$nota}. Resultado: O aluno está aprovado!parabens <3";
+} else {
+    echo "A nota do aluno foi {$nota}. Resultado: O aluno está reprovado, te vejo ano que vem.";
+}
+
+?>
