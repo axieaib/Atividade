@@ -1,13 +1,11 @@
 <?php
 
-$usuario = "admin";
-$senha = "Axie";
+$numero = 2;
 
-// Verificação de acesso usando o operador lógico && (E)
-if ($usuario == "admin" && $senha == "Axie") {
-    echo "Usuário: {$usuario}. <br/> <b>Status: Acesso permitido! bem vindo </b>";
+if ($numero % 2 == 0) {
+    echo "O seu número {$numero} é: Par";
 } else {
-    echo "Usuário ou senha incorretos. <br/> <b>Status: Acesso negado.</b>";
+    echo "O seu número {$numero} é: Ímpar";
 }
 
 ?>
