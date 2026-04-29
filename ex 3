@@ -1,0 +1,18 @@
+<?php
+$valor_compra = 1000.00;
+
+if ($valor_compra >= 100) {
+    // Cálculo
+    $valor_desconto = $valor_compra * 0.10;
+    $valor_final = $valor_compra - $valor_desconto;
+    
+    echo "Você recebeu 10% de desconto, O nosso valor era R$ {$valor_compra} e o Valor final é: R$ {$valor_final} viva o desconto <3";
+
+} else {
+    $valor_final = $valor_compra;
+    
+    echo " Comprou pouco e n teve desconto. Valor final: R$ {$valor_final}, nao quer voltar e comprar mais e ter um desconto?";
+
+}
+
+?>
